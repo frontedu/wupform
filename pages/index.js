@@ -1,65 +1,63 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+<div class="grid grid-cols-1 gap-4">
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+<div class="ml-8">
+  <div class="mt-12 md:ml-0">
+    <img class="h-9 mb-12" src="/logo@2x.png"/>
+    <p class="text-xl font-regular text-gray-600">
+      Pedido de Integração e Parceria
+    </p>
+    <h1 class="mt-2 text-4xl font-bold text-gray-700">
+      Dados pessoais
+    </h1>
+    <p class="mt-4 font-medium text-gray-600">
+      <strong class="text-red-500">*</strong> são obrigatórios
+    </p>
+  </div>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+  <div class="pointer mt-6 space-y-2 sm:text-left">
+    <button class="text-base px-7 py-2 text-lg text-gray-600 font-semibold rounded-full border border-gray-600 hover:text-white hover:bg-gray-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-offset-2 transition-all">Passo 4 de 6</button>
+  </div>
+  </div>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+  <div class="fixed bottom-0 pointer">
+    <button class="text-left transition w-screen py-6 px-12 bg-gray-200 text-2xl font-medium text-gray-400 focus:outline-none focus:bg-gray-600 focus:text-gray-200">
+      Continuar
+    </button>
+  </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+  <div>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+  <form className='flex'>
+    <input class="outline-none m-8 p-2 text-xl bg-white border-b border-gray-400" id='email' type='email' aria-label='email' placeholder='Qual seu e-mail?  *'
+    />
+  </form>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+  <form className='flex'>
+    <input class="outline-none m-8 mt-4 p-2 text-xl bg-white border-b border-gray-400" id='phone' type='phone' aria-label='phone' placeholder='Telefone pessoal  *'
+    />
+  </form>
+
+  <form className='flex'>
+    <input class="outline-none m-8 mt-4 p-2 text-xl bg-white border-b border-gray-400" id='phone' type='whatsapp' aria-label='whatsapp' placeholder='WhatsApp pessoal  *'
+    />
+  </form>
+
+  <form className='flex'>
+    <input class="outline-none m-8 mt-4 p-2 text-xl bg-white border-b border-gray-400" id='landline' type='landline' aria-label='tel comercial' placeholder='Telefone comercial  *'
+    />
+  </form>
+
+  </div>
+
+
+  </div>
+    
   )
 }
