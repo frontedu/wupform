@@ -1,8 +1,8 @@
 import Head from "next/head";
 
 import Layout from "../components/Layout/Layout";
-import Sidebar from "../components/Sidebar/Sidebar";
-import Nav from "../components/Nav/Nav";
+import Sidebar from "../components/Sidebar/Sidebar2";
+import Nav from "../components/Nav/Nav2";
 
 export default function Home() {
   return (

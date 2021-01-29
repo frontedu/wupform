@@ -1,0 +1,36 @@
+.checkmark {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.bgwup {
+  background-color: #f4f4f4;
+  color: #b5b5b5;
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.bgwup:hover {
+  background-color: #008fb2;
+  color: white;
+}
+
+.voltar {
+  background-color: #008fb2;
+  color: white;
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#radio-container input {
+  width: 10%; /* set width equal to input so they match in width
+  and then by aligning text to left this ensures teh texts aligns up with left side of input field */
+  height: 1.3em; /* change height relative to root height */
+}
+
+#check-container input {
+  width: 7%; /* set width equal to input so they match in width
+  and then by aligning text to left this ensures teh texts aligns up with left side of input field */
+  height: 1.3em; /* change height relative to root height */
+}
