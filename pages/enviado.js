@@ -39,7 +39,7 @@ export default function Home() {
                 </h2>
 
                 <div className="">
-                  <i className="fas fa-long-arrow-alt-right w-4"></i>
+                  <i className="fas fa-long-arrow-alt-right w-5"></i>
                 </div>
               </div>
             </Link>
