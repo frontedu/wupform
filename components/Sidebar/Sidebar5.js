@@ -6,7 +6,7 @@ export default function Sidebar() {
       <div className="md:block lg:flex justify-center md:justify-between">
         <Link href="contato">
           <button className="mx-8 my-6 py-3 px-8 ring-1 ring-black inline-block  rounded-full font-semibold text-2xl focus:outline-none">
-            <i className="fa fa-angle-left mr-4"></i> Passo 5 de 6
+            <i className="fa fa-angle-left mr-4 w-2"></i> Passo 5 de 6
           </button>
         </Link>
 
