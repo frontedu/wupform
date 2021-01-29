@@ -5,7 +5,7 @@ export default function Sidebar() {
     <div className="bg-gray-200 m-8 rounded-lg">
       <div className="md:block lg:flex justify-center md:justify-between">
         <Link href="organizacao">
-          <button className="mx-8 my-6 py-3 px-8 ring-1 ring-black inline-block  rounded-full font-semibold text-2xl focus:outline-none">
+          <button className="flex mx-8 my-6 py-3 px-8 ring-1 ring-black rounded-full font-semibold text-2xl focus:outline-none">
             <i className="fa fa-angle-left mr-4 w-2"></i> Passo 6 de 6
           </button>
         </Link>
